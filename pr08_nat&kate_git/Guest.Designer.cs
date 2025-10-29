@@ -38,19 +38,20 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 30);
+            this.dataGridView1.Location = new System.Drawing.Point(-1, 45);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(804, 455);
+            this.dataGridView1.Size = new System.Drawing.Size(804, 440);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(335, 9);
+            this.label1.Location = new System.Drawing.Point(332, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 33);
+            this.label1.Size = new System.Drawing.Size(106, 35);
             this.label1.TabIndex = 3;
             this.label1.Text = "Товары";
             // 
