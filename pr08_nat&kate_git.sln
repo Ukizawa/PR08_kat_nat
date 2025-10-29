@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr08_nat&kate_git", "pr08_nat&kate_git\pr08_nat&kate_git.csproj", "{D563B5A1-0C5A-4952-9E91-661960BEC4C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D563B5A1-0C5A-4952-9E91-661960BEC4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D563B5A1-0C5A-4952-9E91-661960BEC4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D563B5A1-0C5A-4952-9E91-661960BEC4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D563B5A1-0C5A-4952-9E91-661960BEC4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90160954-C5FD-4785-A9AF-09B72064C7D1}
+	EndGlobalSection
+EndGlobal
