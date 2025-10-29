@@ -30,12 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sells = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.filters = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.date_of_add = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,6 +43,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sells = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.filters = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.date_of_add = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,36 +68,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(936, 387);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // id
-            // 
-            this.id.HeaderText = "id";
-            this.id.Name = "id";
-            // 
-            // name
-            // 
-            this.name.HeaderText = "name";
-            this.name.Name = "name";
-            // 
-            // price
-            // 
-            this.price.HeaderText = "price";
-            this.price.Name = "price";
-            // 
-            // sells
-            // 
-            this.sells.HeaderText = "sells";
-            this.sells.Name = "sells";
-            // 
-            // filters
-            // 
-            this.filters.HeaderText = "filters";
-            this.filters.Name = "filters";
-            // 
-            // date_of_add
-            // 
-            this.date_of_add.HeaderText = "date_of_add";
-            this.date_of_add.Name = "date_of_add";
             // 
             // button1
             // 
@@ -137,35 +107,36 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(618, 94);
+            this.dateTimePicker1.Enabled = false;
+            this.dateTimePicker1.Location = new System.Drawing.Point(626, 66);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(136, 22);
             this.dateTimePicker1.TabIndex = 4;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 40);
+            this.textBox1.Location = new System.Drawing.Point(119, 21);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(166, 22);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(119, 94);
+            this.textBox2.Location = new System.Drawing.Point(119, 91);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(166, 22);
             this.textBox2.TabIndex = 6;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(401, 40);
+            this.textBox3.Location = new System.Drawing.Point(401, 21);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(166, 22);
             this.textBox3.TabIndex = 7;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(401, 94);
+            this.textBox4.Location = new System.Drawing.Point(401, 92);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(166, 22);
             this.textBox4.TabIndex = 8;
@@ -175,7 +146,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(21, 40);
+            this.label1.Location = new System.Drawing.Point(21, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 23);
             this.label1.TabIndex = 9;
@@ -197,7 +168,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(305, 37);
+            this.label3.Location = new System.Drawing.Point(305, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 23);
             this.label3.TabIndex = 11;
@@ -219,11 +190,42 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(614, 65);
+            this.label5.Location = new System.Drawing.Point(622, 33);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(158, 23);
             this.label5.TabIndex = 13;
             this.label5.Text = "Дата добавления";
+            // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            // 
+            // name
+            // 
+            this.name.HeaderText = "name";
+            this.name.Name = "name";
+            // 
+            // price
+            // 
+            this.price.HeaderText = "price";
+            this.price.Name = "price";
+            // 
+            // sells
+            // 
+            this.sells.HeaderText = "sells";
+            this.sells.Name = "sells";
+            // 
+            // filters
+            // 
+            this.filters.HeaderText = "filters";
+            this.filters.Name = "filters";
+            // 
+            // date_of_add
+            // 
+            this.date_of_add.HeaderText = "date_of_add";
+            this.date_of_add.Name = "date_of_add";
             // 
             // Admin
             // 
@@ -259,12 +261,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sells;
-        private System.Windows.Forms.DataGridViewTextBoxColumn filters;
-        private System.Windows.Forms.DataGridViewTextBoxColumn date_of_add;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -278,5 +274,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sells;
+        private System.Windows.Forms.DataGridViewTextBoxColumn filters;
+        private System.Windows.Forms.DataGridViewTextBoxColumn date_of_add;
     }
 }
